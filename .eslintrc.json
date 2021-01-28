@@ -15,7 +15,7 @@
     "jsdoc",
     "unicorn",
     "node",
-    "sonarjs",
+    "radar",
     "@regru/prefer-early-return"
   ],
   "settings": {
@@ -877,31 +877,31 @@
     "node/prefer-promises/fs": "warn",
     "node/process-exit-as-throw": "warn",
     "node/shebang": "warn",
-    "sonarjs/cognitive-complexity": ["warn", 140],
-    "sonarjs/max-switch-cases": "warn",
-    "sonarjs/no-all-duplicated-branches": "warn",
-    "sonarjs/no-collapsible-if": "warn",
-    "sonarjs/no-collection-size-mischeck": "warn",
-    "sonarjs/no-duplicate-string": "off", // too restrictive
-    "sonarjs/no-duplicated-branches": "warn",
-    "sonarjs/no-element-overwrite": "warn",
-    "sonarjs/no-extra-arguments": "off", // not needed: covered by typescript
-    "sonarjs/no-identical-conditions": "warn",
-    "sonarjs/no-identical-functions": "warn",
-    "sonarjs/no-identical-expressions": "warn",
-    "sonarjs/no-inverted-boolean-check": "warn",
-    "sonarjs/no-one-iteration-loop": "warn",
-    "sonarjs/no-redundant-boolean": "warn",
-    "sonarjs/no-redundant-jump": "warn",
-    "sonarjs/no-same-line-conditional": "warn",
-    "sonarjs/no-small-switch": "warn",
-    "sonarjs/no-unused-collection": "warn",
-    "sonarjs/no-use-of-empty-return-value": "off", // not needed: covered by typescript
-    "sonarjs/no-useless-catch": "warn",
-    "sonarjs/prefer-immediate-return": "warn",
-    "sonarjs/prefer-object-literal": "warn",
-    "sonarjs/prefer-single-boolean-return": "warn",
-    "sonarjs/prefer-while": "warn",
+    "radar/cognitive-complexity": ["warn", 140],
+    "radar/max-switch-cases": "warn",
+    "radar/no-all-duplicated-branches": "warn",
+    "radar/no-collapsible-if": "warn",
+    "radar/no-collection-size-mischeck": "warn",
+    "radar/no-duplicate-string": "off", // too restrictive
+    "radar/no-duplicated-branches": "warn",
+    "radar/no-element-overwrite": "warn",
+    "radar/no-extra-arguments": "off", // not needed: covered by typescript
+    "radar/no-identical-conditions": "warn",
+    "radar/no-identical-functions": "warn",
+    "radar/no-identical-expressions": "warn",
+    "radar/no-inverted-boolean-check": "warn",
+    "radar/no-one-iteration-loop": "warn",
+    "radar/no-redundant-boolean": "warn",
+    "radar/no-redundant-jump": "warn",
+    "radar/no-same-line-conditional": "warn",
+    "radar/no-small-switch": "warn",
+    "radar/no-unused-collection": "warn",
+    "radar/no-use-of-empty-return-value": "off", // not needed: covered by typescript
+    "radar/no-useless-catch": "warn",
+    "radar/prefer-immediate-return": "warn",
+    "radar/prefer-object-literal": "warn",
+    "radar/prefer-single-boolean-return": "warn",
+    "radar/prefer-while": "warn",
     "@regru/prefer-early-return/prefer-early-return": "warn"
   }
 }

@@ -1,4 +1,4 @@
-/* eslint-disable max-lines, max-lines-per-function, sonarjs/no-identical-functions, sonarjs/cognitive-complexity */
+/* eslint-disable max-lines, max-lines-per-function, radar/no-identical-functions, radar/cognitive-complexity */
 /* eslint-env node, mocha */
 
 import * as assert from 'assert';
